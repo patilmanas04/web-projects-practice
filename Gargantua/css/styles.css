@@ -1,0 +1,95 @@
+/* universal styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url("/images/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+/* section styles */
+
+section.intro{
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+section.timeDilation{
+    padding: 30px;
+    background: gray;
+}
+
+section.designingBlackHole{
+    padding: 30px;
+    background: white;
+}
+
+section.tesseract{
+    padding: 30px;
+    background: gray;
+}
+
+section.footer{
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 0rem 0rem 2.5rem 2.5rem;
+}
+
+/* other styles */
+
+.container{
+    width: 37.5rem;
+    margin: 6.25rem auto;
+    border: 1px solid white;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+
+aside.topimage img{
+    width: 100%;
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+}
+
+.topimage{
+    line-height: 0px;
+}
+
+aside.tesseract img{
+    float: right;
+    width: 180px;
+    margin-left: 20px;
+}
+
+aside.interstellarImage img{
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+aside.concept img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+img{
+    border: 0.8px solid black;
+}
+
+aside.topimage img{
+    border: 0px;
+}
